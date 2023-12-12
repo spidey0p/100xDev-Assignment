@@ -26,7 +26,6 @@ function calculateTotalSpentByCategory(transactions) {
   const result = Object.keys(totals).map((category) => {
     return { category: category, totalSpent: totals[category] };
   });
-
   return result;
 }
 
